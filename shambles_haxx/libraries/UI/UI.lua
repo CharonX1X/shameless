@@ -3142,4 +3142,6 @@ end;
 
 --Library:Notify("Hi this is a notification test", 5, "line");
 
+getgenv().Window = Library:CreateWindow({Title = 'Shambles Haxx', Center = true, AutoShow = true})
+
 return Library
